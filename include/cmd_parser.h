@@ -8,7 +8,7 @@
 
 class CmdParser {
 public:
-    CmdParser(uint32_t argc, char* argv[]);
+    CmdParser(uint32_t argc, char* argv[], std::string& finish_data);
     void furtherParsing(std::string& data);
     bool dataProcessing(std::string& data);
     void Help();

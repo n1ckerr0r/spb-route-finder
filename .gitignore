@@ -34,3 +34,6 @@
 # Folder
 build
 .idea
+
+# Token managers
+.evn

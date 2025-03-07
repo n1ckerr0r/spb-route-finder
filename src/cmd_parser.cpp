@@ -7,7 +7,7 @@
 
 // add Help
 
-CmdParser::CmdParser(uint32_t argc, char *argv[]) {
+CmdParser::CmdParser(uint32_t argc, char *argv[], std::string& finish_data) {
     std::string data;
     if (argc == 1) {
         furtherParsing(data);
@@ -27,7 +27,7 @@ CmdParser::CmdParser(uint32_t argc, char *argv[]) {
     }
 
     if (dataProcessing(data)) {
-        std::cout << format_data << '\n';
+        finish_data = format_data;
     }
     else {
         std::cerr << "Data is incorrect, use --help or -h\n";

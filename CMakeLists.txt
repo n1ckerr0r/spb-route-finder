@@ -24,7 +24,16 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(cpr googletest json)
 
-add_library(navigator_lib src/cmd_parser.cpp include/cmd_parser.h)
+add_library(navigator_lib
+        src/cmd_parser.cpp
+        src/api_key_manager.cpp
+        src/data_processor.cpp
+        src/data_printer.cpp
+        include/cmd_parser.h
+        include/api_key_manager.h
+        include/data_processor.h
+        include/data_printer.h
+)
 target_include_directories(navigator_lib PUBLIC include)
 target_link_libraries(navigator_lib PUBLIC cpr nlohmann_json)
 
@@ -35,3 +44,9 @@ enable_testing()
 add_executable(navigator_test tests/navigator_test.cpp)
 target_link_libraries(navigator_test PRIVATE gtest gtest_main navigator_lib)
 add_test(NAME NavigatorTests COMMAND navigator_test)
+
+set_target_properties(navigator PROPERTIES
+        RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+)
+
+target_compile_options(navigator PRIVATE -Wall -Wextra)
