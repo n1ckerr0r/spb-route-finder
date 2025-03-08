@@ -15,6 +15,8 @@ public:
     bool isValidData(std::vector<uint16_t>& data);
     bool isDataInRange(std::vector<uint16_t>& data);
     void createFormatData(std::vector<uint16_t> &data);
+
+    void createFormatData(const std::vector<unsigned short> & data, const char * str);
 private:
     std::string format_data;
 };

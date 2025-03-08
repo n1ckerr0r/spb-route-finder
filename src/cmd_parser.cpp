@@ -5,8 +5,6 @@
 #include <vector>
 #include <chrono>
 
-// add Help
-
 CmdParser::CmdParser(uint32_t argc, char *argv[], std::string& finish_data) {
     std::string data;
     if (argc == 1) {
@@ -44,7 +42,10 @@ void CmdParser::furtherParsing(std::string& data) {
 }
 
 void CmdParser::Help() {
-    std::cout << "something\n";
+    std::cout << "Hello in my console app for finding routes to my hometown\n"
+    "You need to input only one parameter\n"
+    "It's must be a date of your departure\n"
+    "This parameter must be separated by underscores, dashes or dots\n";
 }
 
 bool CmdParser::dataProcessing(std::string &data) {
@@ -69,9 +70,9 @@ bool CmdParser::dataProcessing(std::string &data) {
 }
 
 bool CmdParser::isValidData(std::vector<uint16_t> &data) {
-    uint8_t day = data[0];
-    uint8_t month = data[1];
-    uint8_t year = data[2];
+    uint16_t day = data[0];
+    uint16_t month = data[1];
+    uint16_t year = data[2];
 
     if (year < 2000 || year > 2100) return false;
     if (month < 1 || month > 12) return false;
@@ -110,5 +111,5 @@ void CmdParser::createFormatData(std::vector<uint16_t> &data) {
     day = day.size() == 2 ? day : "0" + day;
     month = month.size() == 2 ? month : "0" + month;
 
-    format_data = day + "-" + month + "-" + year;
+    format_data = year + "-" + month + "-" + day;
 }

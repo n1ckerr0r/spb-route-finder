@@ -75,12 +75,11 @@ void DataProcessor::makeUrl(std::string& url, std::string from, std::string to, 
         "https://api.rasp.yandex.net/v3.0/search/?from={}"
         "&to={}"
         "&format=json"
-        "&ru_RU"
+        "&lang=ru_RU"
         "&apikey={}"
         "&date={}"
         "&transfers=true",
     from, to, api_key, data);
-    url = std::format("https://api.rasp.yandex.net/v3.0/search/?apikey={}&format=json&from={}&to={}&lang=ru_RU&date=2025-09-02&&transfers=true", api_key, from, to);
 }
 
 json DataProcessor::makeRequest(std::string url) {
@@ -131,7 +130,7 @@ void DataProcessor::selectOneTransferBackRoutes(json &data, std::vector<json> &r
         if (route.contains("has_transfers") && !route["has_transfers"]) {
             routes.push_back(route);
         }
-        else if (route.contains("transfers") && route["transfer"].size() <= 1) {
+        else if (route.contains("transfers") && route["transfers"].size() <= 1) {
             routes.push_back(route);
         }
     }

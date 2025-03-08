@@ -1,0 +1,14 @@
+# Target labels
+ json-populate
+# Source files and their labels
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/CMakeFiles/json-populate
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/CMakeFiles/json-populate.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/CMakeFiles/json-populate-complete.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test.rule
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update.rule

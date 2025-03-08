@@ -43,7 +43,17 @@ target_link_libraries(navigator PRIVATE navigator_lib)
 enable_testing()
 add_executable(navigator_test tests/navigator_test.cpp)
 target_link_libraries(navigator_test PRIVATE gtest gtest_main navigator_lib)
-add_test(NAME NavigatorTests COMMAND navigator_test)
+
+add_test(NAME ApiKeyManagerTest_ApiKeyNotEmpty COMMAND navigator_test --gtest_filter=ApiKeyManagerTest.ApiKeyNotEmpty)
+add_test(NAME CmdParserTest_DataIsNotValid COMMAND navigator_test --gtest_filter=CmdParserTest.DataIsNotValid)
+add_test(NAME CmdParserTest_DataIsValid COMMAND navigator_test --gtest_filter=CmdParserTest.DataIsValid)
+add_test(NAME CmdParserTest_DataNotInRange COMMAND navigator_test --gtest_filter=CmdParserTest.DataNotInRange)
+add_test(NAME CmdParserTest_DataInRange COMMAND navigator_test --gtest_filter=CmdParserTest.DataInRange)
+add_test(NAME CmdParserTest_CheckFormatData COMMAND navigator_test --gtest_filter=CmdParserTest.CheckFormatData)
+add_test(NAME DataProcessorTest_CheckInternetConnection COMMAND navigator_test --gtest_filter=DataProcessorTest.CheckInternetConnection)
+add_test(NAME DataProcessorTest_ResizeStringBasic COMMAND navigator_test --gtest_filter=DataProcessorTest.ResizeStringBasic)
+add_test(NAME DataProcessorTest_TimeTransformationValid COMMAND navigator_test --gtest_filter=DataProcessorTest.TimeTransformationValid)
+add_test(NAME DataProcessorTest_MakeUrlBasic COMMAND navigator_test --gtest_filter=DataProcessorTest.MakeUrlBasic)
 
 set_target_properties(navigator PROPERTIES
         RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin

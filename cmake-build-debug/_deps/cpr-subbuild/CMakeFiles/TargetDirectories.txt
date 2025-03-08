@@ -1,0 +1,3 @@
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate.dir
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/edit_cache.dir
+/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/rebuild_cache.dir

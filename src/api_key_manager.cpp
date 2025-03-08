@@ -24,7 +24,7 @@ ApiKeyManager::ApiKeyManager(std::string &api_key) {
 }
 
 void ApiKeyManager::ErrorHandler() {
-    std::cout << "Can't find .env file with api key\n";
+    std::cout << "Failed: search .env file with api key\n";
     exit(1);
 }
 

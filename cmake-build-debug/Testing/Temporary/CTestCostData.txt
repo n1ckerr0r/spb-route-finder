@@ -1,0 +1,21 @@
+NavigatorTests 9 0.00050482
+ApiKeyManagerTest.ApiKeyNotEmpty 5 0.000955426
+ApiKeyManagerTest.ApiKeyHasCorrectFormat 2 0.00205173
+CmdParserTest.DataIsNotValid 3 0.00133544
+CmdParserTest.DataIsValid 2 0.00208583
+ApiKeyManagerTest.DataIsNotValid 1 0.00654918
+СmdParserTest.DataIsNotValid 1 0.00411501
+ApiKeyManagerTest_ApiKeyNotEmpty 25 0.000191229
+CmdParserTest_DataIsNotValid 24 0.000172233
+CmdParserTest_DataIsValid 21 0.000176662
+CmdParserTest_DataNotInRange 17 0.000232712
+CmdParserTest_DataInRange 21 0.000224756
+CmdParserTest_CheckFormatData 23 0.00018353
+DataProcessor_CheckInternetConnection 5 0.0376593
+DataProcessor_MakeRequestConnection 0 0
+DataProcessorTest_CheckInternetConnection 9 0.0218006
+DataProcessorTest_MakeRequestConnection 1 0.00871713
+DataProcessorTest_ResizeStringBasic 5 0.00121995
+DataProcessorTest_TimeTransformationValid 5 0.000841264
+DataProcessorTest_MakeUrlBasic 1 0.00467987
+---

@@ -27,7 +27,6 @@ int main(int argc, char* argv[]) {
     data_processor.checkInternetConnection();
     cout << "Successful connection\n";
 
-
     cout << "Sending a request...\n";
     json response = data_processor.getData();
     count_routes = data_processor.getCountRoutes();
