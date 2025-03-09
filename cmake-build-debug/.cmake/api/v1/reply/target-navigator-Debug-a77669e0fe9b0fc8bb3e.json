@@ -64,7 +64,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 62,
+				"line" : 65,
 				"parent" : 0
 			}
 		]
@@ -80,10 +80,6 @@
 				{
 					"backtrace" : 8,
 					"fragment" : "-Wall"
-				},
-				{
-					"backtrace" : 8,
-					"fragment" : "-Wextra"
 				}
 			],
 			"defines" : 

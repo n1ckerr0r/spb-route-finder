@@ -98,6 +98,6 @@ CMake Deprecation Warning at cmake-build-debug/_deps/json-src/CMakeLists.txt:1 (
 
 
 -- Using the single-header code from /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-src/single_include/
--- Configuring done (1.7s)
+-- Configuring done (1.8s)
 -- Generating done (0.1s)
 -- Build files have been written to: /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug

@@ -53,10 +53,13 @@ add_test(NAME CmdParserTest_CheckFormatData COMMAND navigator_test --gtest_filte
 add_test(NAME DataProcessorTest_CheckInternetConnection COMMAND navigator_test --gtest_filter=DataProcessorTest.CheckInternetConnection)
 add_test(NAME DataProcessorTest_ResizeStringBasic COMMAND navigator_test --gtest_filter=DataProcessorTest.ResizeStringBasic)
 add_test(NAME DataProcessorTest_TimeTransformationValid COMMAND navigator_test --gtest_filter=DataProcessorTest.TimeTransformationValid)
-add_test(NAME DataProcessorTest_MakeUrlBasic COMMAND navigator_test --gtest_filter=DataProcessorTest.MakeUrlBasic)
+add_test(NAME DataProcessorTest_TimeTransformationNotValid COMMAND navigator_test --gtest_filter=DataProcessorTest.TimeTransformationNotValid)
+add_test(NAME DataProcessorTest_MakeUrlBasic COMMAND navigator_test --gtest_filter=DataProcessorTest.MakeUrl)
+add_test(NAME DataProcessorTest_CheckRequested COMMAND navigator_test --gtest_filter=DataProcessorTest.CheckRequested)
+add_test(NAME DataPrinterTest_ConvertTime COMMAND navigator_test --gtest_filter=DataPrinterTest.ConvertTime)
 
 set_target_properties(navigator PROPERTIES
         RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
 )
 
-target_compile_options(navigator PRIVATE -Wall -Wextra)
+target_compile_options(navigator PRIVATE -Wall)

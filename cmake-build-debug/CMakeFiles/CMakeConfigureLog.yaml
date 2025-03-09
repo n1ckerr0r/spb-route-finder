@@ -56645,3 +56645,333 @@ events:
       variable: "run_result_unused"
       cached: true
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a77d/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        /usr/bin/make  -f CMakeFiles/cmTC_4a77d.dir/build.make CMakeFiles/cmTC_4a77d.dir/build
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_4a77d.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -fdiagnostics-color=always -o CMakeFiles/cmTC_4a77d.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        \x1b[01m\x1b[K/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_4a77d.dir/build.make:78: CMakeFiles/cmTC_4a77d.dir/detect-arch.c.o] Ошибка 1
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make: *** [Makefile:127: cmTC_4a77d/fast] Ошибка 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ab3a9/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        /usr/bin/make  -f CMakeFiles/cmTC_ab3a9.dir/build.make CMakeFiles/cmTC_ab3a9.dir/build
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_ab3a9.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -fdiagnostics-color=always -o CMakeFiles/cmTC_ab3a9.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        \x1b[01m\x1b[K/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_ab3a9.dir/build.make:78: CMakeFiles/cmTC_ab3a9.dir/detect-arch.c.o] Ошибка 1
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make: *** [Makefile:127: cmTC_ab3a9/fast] Ошибка 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_644a1/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/make  -f CMakeFiles/cmTC_644a1.dir/build.make CMakeFiles/cmTC_644a1.dir/build
+        make[2]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_644a1.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_644a1.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6: error: #error archfound x86_64
+            8 |     #error archfound x86_64
+              |      ^~~~~
+        make[2]: *** [CMakeFiles/cmTC_644a1.dir/build.make:78: CMakeFiles/cmTC_644a1.dir/detect-arch.c.o] Ошибка 1
+        make[2]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make[1]: *** [Makefile:127: cmTC_644a1/fast] Ошибка 2
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec1bb/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        /usr/bin/make  -f CMakeFiles/cmTC_ec1bb.dir/build.make CMakeFiles/cmTC_ec1bb.dir/build
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_ec1bb.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -fdiagnostics-color=always -o CMakeFiles/cmTC_ec1bb.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        \x1b[01m\x1b[K/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_ec1bb.dir/build.make:78: CMakeFiles/cmTC_ec1bb.dir/detect-arch.c.o] Ошибка 1
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make: *** [Makefile:127: cmTC_ec1bb/fast] Ошибка 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_547c5/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        /usr/bin/make  -f CMakeFiles/cmTC_547c5.dir/build.make CMakeFiles/cmTC_547c5.dir/build
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_547c5.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -fdiagnostics-color=always -o CMakeFiles/cmTC_547c5.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        \x1b[01m\x1b[K/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_547c5.dir/build.make:78: CMakeFiles/cmTC_547c5.dir/detect-arch.c.o] Ошибка 1
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make: *** [Makefile:127: cmTC_547c5/fast] Ошибка 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a841a/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        /usr/bin/make  -f CMakeFiles/cmTC_a841a.dir/build.make CMakeFiles/cmTC_a841a.dir/build
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_a841a.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -fdiagnostics-color=always -o CMakeFiles/cmTC_a841a.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        \x1b[01m\x1b[K/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_a841a.dir/build.make:78: CMakeFiles/cmTC_a841a.dir/detect-arch.c.o] Ошибка 1
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make: *** [Makefile:127: cmTC_a841a/fast] Ошибка 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_886e7/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        /usr/bin/make  -f CMakeFiles/cmTC_886e7.dir/build.make CMakeFiles/cmTC_886e7.dir/build
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_886e7.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -fdiagnostics-color=always -o CMakeFiles/cmTC_886e7.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        \x1b[01m\x1b[K/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_886e7.dir/build.make:78: CMakeFiles/cmTC_886e7.dir/detect-arch.c.o] Ошибка 1
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make: *** [Makefile:127: cmTC_886e7/fast] Ошибка 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake:24 (try_run)"
+      - "cmake-build-debug/_deps/zlib-src/CMakeLists.txt:49 (include)"
+    directories:
+      source: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+      binary: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f875b/fast
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        /usr/bin/make  -f CMakeFiles/cmTC_f875b.dir/build.make CMakeFiles/cmTC_f875b.dir/build
+        make[1]: вход в каталог «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        /usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+        Building C object CMakeFiles/cmTC_f875b.dir/detect-arch.c.o
+        /usr/bin/gcc   -std=c99 -fdiagnostics-color=always -o CMakeFiles/cmTC_f875b.dir/detect-arch.c.o -c /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c
+        \x1b[01m\x1b[K/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error archfound x86_64
+            8 |     #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K archfound x86_64
+              |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_f875b.dir/build.make:78: CMakeFiles/cmTC_f875b.dir/detect-arch.c.o] Ошибка 1
+        make[1]: выход из каталога «/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/zlib-build/CMakeFiles/CMakeTmp»
+        make: *** [Makefile:127: cmTC_f875b/fast] Ошибка 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...

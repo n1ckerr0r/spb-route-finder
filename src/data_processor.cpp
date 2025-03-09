@@ -147,10 +147,7 @@ std::chrono::system_clock::time_point DataProcessor::timeTransformation(std::str
     std::istringstream ss(time);
     ss >> std::get_time(&tm, "%Y-%m-%dT%H:%M:%S");
 
-    if (ss.fail()) {
-        std::cerr << "Error: incorrect time\n";
-        exit(1);
-    }
+    if (ss.fail()) std::cerr << "Error: incorrect time\n";
 
     time_t tt = std::mktime(&tm);
 
@@ -206,6 +203,5 @@ void DataProcessor::checkRequested() {
         requested.erase(requested.begin());
     }
 }
-
 
 uint16_t DataProcessor::getCountRoutes() { return count_routes; }

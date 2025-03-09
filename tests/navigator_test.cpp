@@ -15,8 +15,6 @@ TEST(ApiKeyManagerTest, ApiKeyNotEmpty) {
     std::string api_key;
     ApiKeyManager test_api_key_manager(api_key);
 
-    std::cout << api_key << '\n';
-
     EXPECT_TRUE(api_key.size() > 0);
 }
 
@@ -79,7 +77,7 @@ TEST(CmdParserTest, DataInRange) {
     EXPECT_TRUE(test_cmd_parser.isDataInRange(true_data3));
 }
 
-TEST(CmdParsetTest, CheckFormatData) {
+TEST(CmdParserTest, CheckFormatData) {
     vector<uint16_t> data1 = {3, 5, 7};
     vector<uint16_t> data2 = {06, 16, 2001};
     vector<uint16_t> data3 = {13, 6, 2025};
@@ -144,7 +142,27 @@ TEST(DataProcessorTest, TimeTransformationValid) {
     EXPECT_EQ(std::string(buffer), time_str);
 }
 
-TEST(DataProcessorTest, MakeUrlBasic) {
+TEST(DataProcessorTest, TimeTransformationNotValid) {
+    testing::internal::CaptureStderr();
+
+    string api = "api_key";
+    string data = "2025-02-02";
+    uint16_t from_city = 2;
+    uint16_t to_city = 39;
+
+    DataProcessor test_data_processor(api, data, from_city, to_city);
+
+    std::string time_str = "2024.01.02";
+    auto time_point = test_data_processor.timeTransformation(time_str);
+
+    std::string output = testing::internal::GetCapturedStderr();
+
+    std::cout << output << '\n';
+
+    EXPECT_EQ(output, "Error: incorrect time\n");
+}
+
+TEST(DataProcessorTest, MakeUrl) {
     string api = "api_key";
     string data = "2025-02-02";
     uint16_t from_city = 2;
@@ -168,4 +186,29 @@ TEST(DataProcessorTest, MakeUrlBasic) {
         "&transfers=true";
 
     EXPECT_EQ(url, expected_url);
+}
+
+TEST(DataProcessorTest, CheckRequested) {
+    string api = "api_key";
+    string data = "2025-02-02";
+    uint16_t from_city = 2;
+    uint16_t to_city = 39;
+
+    DataProcessor test_data_processor(api, data, from_city, to_city);
+
+    vector<string> temp_requested(35, "temp");
+    test_data_processor.requested = temp_requested;
+    test_data_processor.checkRequested();
+
+    EXPECT_EQ(test_data_processor.requested.size(), 30);
+}
+
+TEST(DataPrinterTest, ConvertTime) {
+    json test_json;
+    DataPrinter data_printer_test(test_json, 0);
+
+    std::string iso_time_test = "2025-03-03T22:55:00+03:00";
+    data_printer_test.convertTime(iso_time_test);
+
+    EXPECT_EQ(data_printer_test.convertTime(iso_time_test), "03.03.2025 22:55");
 }

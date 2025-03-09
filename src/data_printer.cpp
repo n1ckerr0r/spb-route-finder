@@ -1,4 +1,3 @@
-#include <iostream>
 #include "data_printer.h"
 
 DataPrinter::DataPrinter(json data, uint16_t count_routes): data(data), count_routes(count_routes) {}
@@ -26,6 +25,7 @@ void DataPrinter::printData() {
         const auto& there_route = data[route_name]["there-route"];
         std::cout << "------------------------------------------------------------------\n";
         std::cout << "OUTBOUND ROUTE:\n";
+
         if (there_route["has_transfers"]) {
             std::cout << "  Departure: " << convertTime(there_route["departure"])
                   << ", " << there_route["departure_from"]["title"] << "\n";
@@ -54,7 +54,6 @@ void DataPrinter::printData() {
             }
         }
         else {
-            std::cout << "\nRETURN ROUTE:\n";
             std::cout << "  Departure: " << convertTime(there_route["departure"])
                       << ", " << there_route["from"]["title"] << "\n";
             std::cout << "  Arrival: " << convertTime(there_route["arrival"])
@@ -64,7 +63,9 @@ void DataPrinter::printData() {
         }
 
         const auto& back_route = data[route_name]["back-route"];
-                if (back_route["has_transfers"]) {
+
+        std::cout << "\nRETURN ROUTE:\n";
+        if (back_route["has_transfers"]) {
             std::cout << "  Departure: " << convertTime(back_route["departure"])
                   << ", " << back_route["departure_from"]["title"] << "\n";
             std::cout << "  Arrival: " << convertTime(back_route["arrival"])
@@ -92,7 +93,6 @@ void DataPrinter::printData() {
             }
         }
         else {
-            std::cout << "\nRETURN ROUTE:\n";
             std::cout << "  Departure: " << convertTime(back_route["departure"])
                       << ", " << back_route["from"]["title"] << "\n";
             std::cout << "  Arrival: " << convertTime(back_route["arrival"])

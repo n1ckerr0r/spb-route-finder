@@ -4,6 +4,7 @@
 #include <ctime>
 #include <format>
 #include <fstream>
+#include <iostream>
 
 #ifndef DATA_PRINTER_H
 #define DATA_PRINTER_H

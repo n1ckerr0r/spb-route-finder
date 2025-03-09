@@ -6,5 +6,5 @@ CXX_DEFINES = -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1
 
 CXX_INCLUDES = -I/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/include -I/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-src/include -I/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/cpr-build/cpr_generated_includes -I/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/curl-src/include -I/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/_deps/json-src/single_include
 
-CXX_FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -Wall -Wextra
+CXX_FLAGS = -g -std=gnu++23 -fdiagnostics-color=always -Wall
 
