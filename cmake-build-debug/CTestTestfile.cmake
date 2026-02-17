@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r
+# Build directory: /home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(ApiKeyManagerTest_ApiKeyNotEmpty "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=ApiKeyManagerTest.ApiKeyNotEmpty")
+set_tests_properties(ApiKeyManagerTest_ApiKeyNotEmpty PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;47;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(CmdParserTest_DataIsNotValid "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=CmdParserTest.DataIsNotValid")
+set_tests_properties(CmdParserTest_DataIsNotValid PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;48;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(CmdParserTest_DataIsValid "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=CmdParserTest.DataIsValid")
+set_tests_properties(CmdParserTest_DataIsValid PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;49;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(CmdParserTest_DataNotInRange "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=CmdParserTest.DataNotInRange")
+set_tests_properties(CmdParserTest_DataNotInRange PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;50;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(CmdParserTest_DataInRange "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=CmdParserTest.DataInRange")
+set_tests_properties(CmdParserTest_DataInRange PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;51;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(CmdParserTest_CheckFormatData "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=CmdParserTest.CheckFormatData")
+set_tests_properties(CmdParserTest_CheckFormatData PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;52;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(DataProcessorTest_CheckInternetConnection "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=DataProcessorTest.CheckInternetConnection")
+set_tests_properties(DataProcessorTest_CheckInternetConnection PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;53;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(DataProcessorTest_ResizeStringBasic "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=DataProcessorTest.ResizeStringBasic")
+set_tests_properties(DataProcessorTest_ResizeStringBasic PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;54;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(DataProcessorTest_TimeTransformationValid "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=DataProcessorTest.TimeTransformationValid")
+set_tests_properties(DataProcessorTest_TimeTransformationValid PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;55;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(DataProcessorTest_TimeTransformationNotValid "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=DataProcessorTest.TimeTransformationNotValid")
+set_tests_properties(DataProcessorTest_TimeTransformationNotValid PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;56;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(DataProcessorTest_MakeUrlBasic "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=DataProcessorTest.MakeUrl")
+set_tests_properties(DataProcessorTest_MakeUrlBasic PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;57;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(DataProcessorTest_CheckRequested "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=DataProcessorTest.CheckRequested")
+set_tests_properties(DataProcessorTest_CheckRequested PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;58;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+add_test(DataPrinterTest_ConvertTime "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/cmake-build-debug/navigator_test" "--gtest_filter=DataPrinterTest.ConvertTime")
+set_tests_properties(DataPrinterTest_ConvertTime PROPERTIES  _BACKTRACE_TRIPLES "/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;59;add_test;/home/nick-error/mainfolder/itmo/c++/labworks/labwork6/labwork6-n1ckerr0r/CMakeLists.txt;0;")
+subdirs("_deps/cpr-build")
+subdirs("_deps/googletest-build")
+subdirs("_deps/json-build")

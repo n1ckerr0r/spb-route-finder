@@ -1,0 +1,2646 @@
+{
+    "interval_segments": [],
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "total": 20
+    },
+    "search": {
+        "date": "2025-03-08",
+        "from": {
+            "code": "c39",
+            "popular_title": "Ростов-на-Дону",
+            "short_title": "Ростов-на-Дону",
+            "title": "Ростов-на-Дону",
+            "type": "settlement"
+        },
+        "to": {
+            "code": "c2",
+            "popular_title": "Санкт-Петербург",
+            "short_title": "Санкт-Петербург",
+            "title": "Санкт-Петербург",
+            "type": "settlement"
+        }
+    },
+    "segments": [
+        {
+            "arrival": "2025-03-09T12:47:00+03:00",
+            "arrival_platform": "",
+            "arrival_terminal": null,
+            "departure": "2025-03-08T01:04:00+03:00",
+            "departure_platform": "",
+            "departure_terminal": null,
+            "duration": 128580.0,
+            "from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "has_transfers": false,
+            "start_date": "2025-03-07",
+            "stops": "",
+            "thread": {
+                "carrier": {
+                    "address": "Москва, ул. Новая Басманная , д. 2",
+                    "code": 112,
+                    "codes": {
+                        "iata": null,
+                        "icao": null,
+                        "sirena": null
+                    },
+                    "contacts": "Единая телефонная линия: +7 (800) 775-00-00 (звонок бесплатный из всех регионов РФ).",
+                    "email": "info@rzd.ru",
+                    "logo": "https://yastat.net/s3/rasp/media/data/company/logo/logo.gif",
+                    "logo_svg": null,
+                    "phone": "+7 (800) 775-00-00",
+                    "title": "РЖД/ФПК",
+                    "url": "http://www.rzd.ru/"
+                },
+                "express_type": null,
+                "number": "122С",
+                "short_title": "Новороссийск — Санкт-Петербург",
+                "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2025-03-07&uid=122S_1_2",
+                "title": "Новороссийск — Санкт-Петербург",
+                "transport_subtype": {
+                    "code": null,
+                    "color": null,
+                    "title": null
+                },
+                "transport_type": "train",
+                "uid": "122S_1_2",
+                "vehicle": null
+            },
+            "tickets_info": null,
+            "to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            }
+        },
+        {
+            "arrival": "2025-03-09T09:03:00+03:00",
+            "arrival_platform": "",
+            "arrival_terminal": null,
+            "departure": "2025-03-08T04:18:00+03:00",
+            "departure_platform": "",
+            "departure_terminal": null,
+            "duration": 103500.0,
+            "from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "has_transfers": false,
+            "start_date": "2025-03-07",
+            "stops": "",
+            "thread": {
+                "carrier": {
+                    "address": "Москва, ул. Новая Басманная , д. 2",
+                    "code": 112,
+                    "codes": {
+                        "iata": null,
+                        "icao": null,
+                        "sirena": null
+                    },
+                    "contacts": "Единая телефонная линия: +7 (800) 775-00-00 (звонок бесплатный из всех регионов РФ).",
+                    "email": "info@rzd.ru",
+                    "logo": "https://yastat.net/s3/rasp/media/data/company/logo/logo.gif",
+                    "logo_svg": null,
+                    "phone": "+7 (800) 775-00-00",
+                    "title": "РЖД/ФПК",
+                    "url": "http://www.rzd.ru/"
+                },
+                "express_type": null,
+                "number": "036С",
+                "short_title": "Адлер — Санкт-Петербург",
+                "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2025-03-07&uid=036S_0_2",
+                "title": "Адлер — Санкт-Петербург",
+                "transport_subtype": {
+                    "code": null,
+                    "color": null,
+                    "title": null
+                },
+                "transport_type": "train",
+                "uid": "036S_0_2",
+                "vehicle": null
+            },
+            "tickets_info": null,
+            "to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            }
+        },
+        {
+            "arrival": "2025-03-09T09:46:00+03:00",
+            "arrival_platform": "",
+            "arrival_terminal": null,
+            "departure": "2025-03-08T08:15:00+03:00",
+            "departure_platform": "",
+            "departure_terminal": null,
+            "duration": 91860.0,
+            "from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "has_transfers": false,
+            "start_date": "2025-03-07",
+            "stops": "",
+            "thread": {
+                "carrier": {
+                    "address": null,
+                    "code": 63438,
+                    "codes": {
+                        "iata": null,
+                        "icao": null,
+                        "sirena": null
+                    },
+                    "contacts": "",
+                    "email": null,
+                    "logo": null,
+                    "logo_svg": null,
+                    "phone": "",
+                    "title": "Гранд Сервис Экспресс (Таврия)",
+                    "url": "http://grandtrain.ru"
+                },
+                "express_type": null,
+                "number": "008С",
+                "short_title": "Севастополь — Санкт-Петербург",
+                "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2025-03-07&uid=008S_3_2",
+                "title": "Севастополь — Санкт-Петербург",
+                "transport_subtype": {
+                    "code": null,
+                    "color": null,
+                    "title": null
+                },
+                "transport_type": "train",
+                "uid": "008S_3_2",
+                "vehicle": null
+            },
+            "tickets_info": null,
+            "to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            }
+        },
+        {
+            "arrival": "2025-03-09T14:12:00+03:00",
+            "arrival_platform": "",
+            "arrival_terminal": null,
+            "departure": "2025-03-08T08:24:00+03:00",
+            "departure_platform": "",
+            "departure_terminal": null,
+            "duration": 107280.0,
+            "from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "has_transfers": false,
+            "start_date": "2025-03-07",
+            "stops": "",
+            "thread": {
+                "carrier": {
+                    "address": null,
+                    "code": 63438,
+                    "codes": {
+                        "iata": null,
+                        "icao": null,
+                        "sirena": null
+                    },
+                    "contacts": "",
+                    "email": null,
+                    "logo": null,
+                    "logo_svg": null,
+                    "phone": "",
+                    "title": "Гранд Сервис Экспресс (Таврия)",
+                    "url": "http://grandtrain.ru"
+                },
+                "express_type": null,
+                "number": "182С",
+                "short_title": "Симферополь — Санкт-Петербург",
+                "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2025-03-07&uid=182S_0_2",
+                "title": "Симферополь — Санкт-Петербург",
+                "transport_subtype": {
+                    "code": null,
+                    "color": null,
+                    "title": null
+                },
+                "transport_type": "train",
+                "uid": "182S_0_2",
+                "vehicle": null
+            },
+            "tickets_info": null,
+            "to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            }
+        },
+        {
+            "arrival": "2025-03-10T05:13:00+03:00",
+            "arrival_platform": "",
+            "arrival_terminal": null,
+            "departure": "2025-03-08T19:17:00+03:00",
+            "departure_platform": "",
+            "departure_terminal": null,
+            "duration": 122160.0,
+            "from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "has_transfers": false,
+            "start_date": "2025-03-08",
+            "stops": "",
+            "thread": {
+                "carrier": {
+                    "address": "Москва, ул. Новая Басманная , д. 2",
+                    "code": 112,
+                    "codes": {
+                        "iata": null,
+                        "icao": null,
+                        "sirena": null
+                    },
+                    "contacts": "Единая телефонная линия: +7 (800) 775-00-00 (звонок бесплатный из всех регионов РФ).",
+                    "email": "info@rzd.ru",
+                    "logo": "https://yastat.net/s3/rasp/media/data/company/logo/logo.gif",
+                    "logo_svg": null,
+                    "phone": "+7 (800) 775-00-00",
+                    "title": "РЖД/ФПК",
+                    "url": "http://www.rzd.ru/"
+                },
+                "express_type": null,
+                "number": "135С",
+                "short_title": "Махачкала — Санкт-Петербург",
+                "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2025-03-08&uid=135S_11_2",
+                "title": "Махачкала — Санкт-Петербург",
+                "transport_subtype": {
+                    "code": null,
+                    "color": null,
+                    "title": null
+                },
+                "transport_type": "train",
+                "uid": "135S_11_2",
+                "vehicle": null
+            },
+            "tickets_info": null,
+            "to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            }
+        },
+        {
+            "arrival": "2025-03-10T08:52:00+03:00",
+            "arrival_platform": "",
+            "arrival_terminal": null,
+            "departure": "2025-03-08T23:56:00+03:00",
+            "departure_platform": "",
+            "departure_terminal": null,
+            "duration": 118560.0,
+            "from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "has_transfers": false,
+            "start_date": "2025-03-08",
+            "stops": "",
+            "thread": {
+                "carrier": {
+                    "address": "Москва, ул. Новая Басманная , д. 2",
+                    "code": 112,
+                    "codes": {
+                        "iata": null,
+                        "icao": null,
+                        "sirena": null
+                    },
+                    "contacts": "Единая телефонная линия: +7 (800) 775-00-00 (звонок бесплатный из всех регионов РФ).",
+                    "email": "info@rzd.ru",
+                    "logo": "https://yastat.net/s3/rasp/media/data/company/logo/logo.gif",
+                    "logo_svg": null,
+                    "phone": "+7 (800) 775-00-00",
+                    "title": "РЖД/ФПК",
+                    "url": "http://www.rzd.ru/"
+                },
+                "express_type": null,
+                "number": "049С",
+                "short_title": "Кисловодск — Санкт-Петербург",
+                "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2025-03-08&uid=049S_1_2",
+                "title": "Кисловодск — Санкт-Петербург",
+                "transport_subtype": {
+                    "code": null,
+                    "color": null,
+                    "title": null
+                },
+                "transport_type": "train",
+                "uid": "049S_1_2",
+                "vehicle": null
+            },
+            "tickets_info": null,
+            "to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            }
+        },
+        {
+            "arrival": "2025-03-10T12:47:00+03:00",
+            "arrival_platform": "",
+            "arrival_terminal": null,
+            "departure": "2025-03-09T01:04:00+03:00",
+            "departure_platform": "",
+            "departure_terminal": null,
+            "duration": 128580.0,
+            "from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "has_transfers": false,
+            "start_date": "2025-03-08",
+            "stops": "",
+            "thread": {
+                "carrier": {
+                    "address": "Москва, ул. Новая Басманная , д. 2",
+                    "code": 112,
+                    "codes": {
+                        "iata": null,
+                        "icao": null,
+                        "sirena": null
+                    },
+                    "contacts": "Единая телефонная линия: +7 (800) 775-00-00 (звонок бесплатный из всех регионов РФ).",
+                    "email": "info@rzd.ru",
+                    "logo": "https://yastat.net/s3/rasp/media/data/company/logo/logo.gif",
+                    "logo_svg": null,
+                    "phone": "+7 (800) 775-00-00",
+                    "title": "РЖД/ФПК",
+                    "url": "http://www.rzd.ru/"
+                },
+                "express_type": null,
+                "number": "122С",
+                "short_title": "Новороссийск — Санкт-Петербург",
+                "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2025-03-08&uid=122S_1_2",
+                "title": "Новороссийск — Санкт-Петербург",
+                "transport_subtype": {
+                    "code": null,
+                    "color": null,
+                    "title": null
+                },
+                "transport_type": "train",
+                "uid": "122S_1_2",
+                "vehicle": null
+            },
+            "tickets_info": null,
+            "to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            }
+        },
+        {
+            "arrival": "2025-03-09T00:15:00+03:00",
+            "arrival_to": {
+                "code": "s9600366",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "airport",
+                "station_type_name": "аэропорт",
+                "title": "Пулково",
+                "transport_type": "plane",
+                "type": "station"
+            },
+            "departure": "2025-03-08T10:02:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T16:48:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T10:02:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 24360.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "143М",
+                        "short_title": "Москва — Кисловодск",
+                        "title": "Москва — Кисловодск",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "143M_1_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 12720.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s9613073",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "station",
+                        "station_type_name": "станция",
+                        "title": "Минеральные Воды",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9623558",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "airport",
+                        "station_type_name": "аэропорт",
+                        "title": "Минеральные Воды",
+                        "transport_type": "plane",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T00:15:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": "1",
+                    "departure": "2025-03-08T20:20:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": "",
+                    "duration": 14100.0,
+                    "from": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 80,
+                            "codes": {
+                                "iata": "5N",
+                                "icao": "AUL",
+                                "sirena": "5Н"
+                            },
+                            "title": "Smartavia"
+                        },
+                        "express_type": null,
+                        "number": "5N 542",
+                        "short_title": "Минеральные Воды — Санкт-Петербург",
+                        "title": "Минеральные Воды — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "plane",
+                        "uid": "5N-542_250308_c80_12",
+                        "vehicle": "Boeing 737-800"
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c11063",
+                    "popular_title": "Минеральные Воды",
+                    "short_title": "Минеральные Воды",
+                    "title": "Минеральные Воды",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "plane"
+            ]
+        },
+        {
+            "arrival": "2025-03-08T21:15:00+03:00",
+            "arrival_to": {
+                "code": "s9600366",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "airport",
+                "station_type_name": "аэропорт",
+                "title": "Пулково",
+                "transport_type": "plane",
+                "type": "station"
+            },
+            "departure": "2025-03-08T06:48:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T13:33:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T06:48:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 24300.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-06",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "135А",
+                        "short_title": "Санкт-Петербург — Махачкала",
+                        "title": "Санкт-Петербург — Махачкала",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "135A_17_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 13620.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s9613073",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "station",
+                        "station_type_name": "станция",
+                        "title": "Минеральные Воды",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9623558",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "airport",
+                        "station_type_name": "аэропорт",
+                        "title": "Минеральные Воды",
+                        "transport_type": "plane",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-08T21:15:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": "1",
+                    "departure": "2025-03-08T17:20:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": "",
+                    "duration": 14100.0,
+                    "from": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 8565,
+                            "codes": {
+                                "iata": "FV",
+                                "icao": null,
+                                "sirena": "ФВ"
+                            },
+                            "title": "Россия"
+                        },
+                        "express_type": null,
+                        "number": "FV 6358",
+                        "short_title": "Минеральные Воды — Санкт-Петербург",
+                        "title": "Минеральные Воды — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "plane",
+                        "uid": "FV-6358_250308_c8565_12",
+                        "vehicle": "Airbus А320"
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c11063",
+                    "popular_title": "Минеральные Воды",
+                    "short_title": "Минеральные Воды",
+                    "title": "Минеральные Воды",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "plane"
+            ]
+        },
+        {
+            "arrival": "2025-03-08T16:05:00+03:00",
+            "arrival_to": {
+                "code": "s9600366",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "airport",
+                "station_type_name": "аэропорт",
+                "title": "Пулково",
+                "transport_type": "plane",
+                "type": "station"
+            },
+            "departure": "2025-03-08T01:13:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T07:12:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T01:13:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 21540.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "004М",
+                        "short_title": "Москва — Кисловодск",
+                        "title": "Москва — Кисловодск",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "004M_0_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 12780.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s9613073",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "station",
+                        "station_type_name": "станция",
+                        "title": "Минеральные Воды",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9623558",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "airport",
+                        "station_type_name": "аэропорт",
+                        "title": "Минеральные Воды",
+                        "transport_type": "plane",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-08T16:05:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": "1",
+                    "departure": "2025-03-08T10:45:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": "",
+                    "duration": 19200.0,
+                    "from": {
+                        "code": "c11063",
+                        "popular_title": "Минеральные Воды",
+                        "short_title": "Минеральные Воды",
+                        "title": "Минеральные Воды",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 60780,
+                            "codes": {
+                                "iata": "A4",
+                                "icao": null,
+                                "sirena": "А4"
+                            },
+                            "title": "Азимут"
+                        },
+                        "express_type": null,
+                        "number": "A4 6003",
+                        "short_title": "Минеральные Воды — Санкт-Петербург",
+                        "title": "Минеральные Воды — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "plane",
+                        "uid": "A4-6003_250308_c60780_12",
+                        "vehicle": "Сухой Суперджет 100"
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c11063",
+                    "popular_title": "Минеральные Воды",
+                    "short_title": "Минеральные Воды",
+                    "title": "Минеральные Воды",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "plane"
+            ]
+        },
+        {
+            "arrival": "2025-03-08T22:55:00+03:00",
+            "arrival_to": {
+                "code": "s9600366",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "airport",
+                "station_type_name": "аэропорт",
+                "title": "Пулково",
+                "transport_type": "plane",
+                "type": "station"
+            },
+            "departure": "2025-03-08T07:51:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T15:01:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T07:51:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 25800.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "102М",
+                        "short_title": "Москва — Адлер",
+                        "title": "Москва — Адлер",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "102M_2_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c239",
+                        "popular_title": "Сочи",
+                        "short_title": "Сочи",
+                        "title": "Сочи",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 13440.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s9613034",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "station",
+                        "station_type_name": "станция",
+                        "title": "Сочи",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c239",
+                        "popular_title": "Сочи",
+                        "short_title": "Сочи",
+                        "title": "Сочи",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9623547",
+                        "popular_title": null,
+                        "short_title": null,
+                        "station_type": "airport",
+                        "station_type_name": "аэропорт",
+                        "title": "Сочи",
+                        "transport_type": "plane",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-08T22:55:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": "1",
+                    "departure": "2025-03-08T18:45:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": "",
+                    "duration": 15000.0,
+                    "from": {
+                        "code": "c239",
+                        "popular_title": "Сочи",
+                        "short_title": "Сочи",
+                        "title": "Сочи",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 8565,
+                            "codes": {
+                                "iata": "FV",
+                                "icao": null,
+                                "sirena": "ФВ"
+                            },
+                            "title": "Россия"
+                        },
+                        "express_type": null,
+                        "number": "FV 6568",
+                        "short_title": "Сочи — Санкт-Петербург",
+                        "title": "Сочи — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "plane",
+                        "uid": "FV-6568_250308_c8565_12",
+                        "vehicle": "Airbus A319"
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c239",
+                    "popular_title": "Сочи",
+                    "short_title": "Сочи",
+                    "title": "Сочи",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "plane"
+            ]
+        },
+        {
+            "arrival": "2025-03-08T19:20:00+03:00",
+            "arrival_to": {
+                "code": "s9600366",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "airport",
+                "station_type_name": "аэропорт",
+                "title": "Пулково",
+                "transport_type": "plane",
+                "type": "station"
+            },
+            "departure": "2025-03-08T02:48:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T11:28:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T02:48:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 31200.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "104В",
+                        "short_title": "Москва — Адлер",
+                        "title": "Москва — Адлер",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "104V_1_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c239",
+                        "popular_title": "Сочи",
+                        "short_title": "Сочи",
+                        "title": "Сочи",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 12120.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s9613034",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "station",
+                        "station_type_name": "станция",
+                        "title": "Сочи",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c239",
+                        "popular_title": "Сочи",
+                        "short_title": "Сочи",
+                        "title": "Сочи",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9623547",
+                        "popular_title": null,
+                        "short_title": null,
+                        "station_type": "airport",
+                        "station_type_name": "аэропорт",
+                        "title": "Сочи",
+                        "transport_type": "plane",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-08T19:20:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": "1",
+                    "departure": "2025-03-08T14:50:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": "",
+                    "duration": 16200.0,
+                    "from": {
+                        "code": "c239",
+                        "popular_title": "Сочи",
+                        "short_title": "Сочи",
+                        "title": "Сочи",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 26,
+                            "codes": {
+                                "iata": "SU",
+                                "icao": "AFL",
+                                "sirena": "СУ"
+                            },
+                            "title": "Аэрофлот"
+                        },
+                        "express_type": null,
+                        "number": "SU 2857",
+                        "short_title": "Сочи — Санкт-Петербург",
+                        "title": "Сочи — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "plane",
+                        "uid": "SU-2857_250308_c26_12",
+                        "vehicle": "Airbus A320"
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c239",
+                    "popular_title": "Сочи",
+                    "short_title": "Сочи",
+                    "title": "Сочи",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "plane"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T00:40:00+03:00",
+            "arrival_to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "departure": "2025-03-08T04:05:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T19:33:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T04:05:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 55680.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "104Ж",
+                        "short_title": "Адлер — Москва",
+                        "title": "Адлер — Москва",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "104ZH_2_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 4620.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s2000003",
+                        "popular_title": "Казанский вокзал",
+                        "short_title": "М-Казанская",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Казанский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s2006004",
+                        "popular_title": "Ленинградский вокзал",
+                        "short_title": "М-Ленинградск",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Ленинградский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T00:40:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T20:50:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 13800.0,
+                    "from": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 4240,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ДОСС"
+                        },
+                        "express_type": null,
+                        "number": "784А",
+                        "short_title": "Москва — Санкт-Петербург",
+                        "title": "Москва — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "784A_2_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c213",
+                    "popular_title": "Москва",
+                    "short_title": "Москва",
+                    "title": "Москва",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "train"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T13:26:00+03:00",
+            "arrival_to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "departure": "2025-03-08T15:52:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-09T08:00:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T15:52:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 58080.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "019С",
+                        "short_title": "Ростов-на-Дону — Москва",
+                        "title": "Ростов-на-Дону — Москва",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "019S_0_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 5400.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s2000003",
+                        "popular_title": "Казанский вокзал",
+                        "short_title": "М-Казанская",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Казанский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s2006004",
+                        "popular_title": "Ленинградский вокзал",
+                        "short_title": "М-Ленинградск",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Ленинградский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T13:26:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-09T09:30:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 14160.0,
+                    "from": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-09",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 4240,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ДОСС"
+                        },
+                        "express_type": null,
+                        "number": "760А",
+                        "short_title": "Москва — Санкт-Петербург",
+                        "title": "Москва — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "760A_2_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c213",
+                    "popular_title": "Москва",
+                    "short_title": "Москва",
+                    "title": "Москва",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "train"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T17:00:00+03:00",
+            "arrival_to": {
+                "code": "s9600366",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "airport",
+                "station_type_name": "аэропорт",
+                "title": "Пулково",
+                "transport_type": "plane",
+                "type": "station"
+            },
+            "departure": "2025-03-08T18:25:00+03:00",
+            "departure_from": {
+                "code": "s9868264",
+                "popular_title": null,
+                "short_title": null,
+                "station_type": "bus_station",
+                "station_type_name": "автовокзал",
+                "title": "Ростов-на-Дону, Главный автовокзал",
+                "transport_type": "bus",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T23:00:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T18:25:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 16500.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 3080,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "ИП Зайцев С.Н."
+                        },
+                        "express_type": null,
+                        "number": "",
+                        "short_title": "Таганрог — Ставрополь",
+                        "title": "Таганрог — Ставрополь",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "bus",
+                        "uid": "empty_1_f9876245t9623298_168",
+                        "vehicle": "MERSEDES (21), у001на26"
+                    },
+                    "to": {
+                        "code": "c36",
+                        "popular_title": "Ставрополь",
+                        "short_title": "Ставрополь",
+                        "title": "Ставрополь",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 50400.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s9623298",
+                        "popular_title": "Центральный автовокзал",
+                        "short_title": "",
+                        "station_type": "bus_station",
+                        "station_type_name": "автовокзал",
+                        "title": "Ставрополь, автовокзал",
+                        "transport_type": "bus",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c36",
+                        "popular_title": "Ставрополь",
+                        "short_title": "Ставрополь",
+                        "title": "Ставрополь",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9623299",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "airport",
+                        "station_type_name": "аэропорт",
+                        "title": "Ставрополь",
+                        "transport_type": "plane",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T17:00:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": "1",
+                    "departure": "2025-03-09T13:00:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": "",
+                    "duration": 14400.0,
+                    "from": {
+                        "code": "c36",
+                        "popular_title": "Ставрополь",
+                        "short_title": "Ставрополь",
+                        "title": "Ставрополь",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-09",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 9144,
+                            "codes": {
+                                "iata": "DP",
+                                "icao": null,
+                                "sirena": "ДР"
+                            },
+                            "title": "Победа"
+                        },
+                        "express_type": null,
+                        "number": "DP 538",
+                        "short_title": "Ставрополь — Санкт-Петербург",
+                        "title": "Ставрополь — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "plane",
+                        "uid": "DP-538_250309_c9144_12",
+                        "vehicle": "Boeing 737-800"
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c36",
+                    "popular_title": "Ставрополь",
+                    "short_title": "Ставрополь",
+                    "title": "Ставрополь",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "bus",
+                "plane"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T21:05:00+03:00",
+            "arrival_to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "departure": "2025-03-08T21:11:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-09T15:00:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T21:11:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 64140.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "011Э",
+                        "short_title": "Анапа — Москва",
+                        "title": "Анапа — Москва",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "011YE_5_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 2700.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s2000003",
+                        "popular_title": "Казанский вокзал",
+                        "short_title": "М-Казанская",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Казанский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s2006004",
+                        "popular_title": "Ленинградский вокзал",
+                        "short_title": "М-Ленинградск",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Ленинградский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T21:05:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-09T15:45:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 19200.0,
+                    "from": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-09",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 4240,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ДОСС"
+                        },
+                        "express_type": null,
+                        "number": "726В",
+                        "short_title": "Москва — Санкт-Петербург",
+                        "title": "Москва — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "726V_1_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c213",
+                    "popular_title": "Москва",
+                    "short_title": "Москва",
+                    "title": "Москва",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "train"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T06:21:00+03:00",
+            "arrival_to": {
+                "code": "s9602499",
+                "popular_title": "Ладожский вокзал",
+                "short_title": "СПб-Лад.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Ладожский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "departure": "2025-03-08T05:53:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T21:40:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T05:53:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 56820.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "102С",
+                        "short_title": "Адлер — Москва",
+                        "title": "Адлер — Москва",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "102S_1_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 4800.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s2000003",
+                        "popular_title": "Казанский вокзал",
+                        "short_title": "М-Казанская",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Казанский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s2006004",
+                        "popular_title": "Ленинградский вокзал",
+                        "short_title": "М-Ленинградск",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Ленинградский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T06:21:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T23:00:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 26460.0,
+                    "from": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-08",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "038А",
+                        "short_title": "Москва — Выборг",
+                        "title": "Москва — Выборг",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "038A_17_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c213",
+                    "popular_title": "Москва",
+                    "short_title": "Москва",
+                    "title": "Москва",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "train"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T12:05:00+03:00",
+            "arrival_to": {
+                "code": "s9600366",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "airport",
+                "station_type_name": "аэропорт",
+                "title": "Пулково",
+                "transport_type": "plane",
+                "type": "station"
+            },
+            "departure": "2025-03-08T10:30:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-09T07:10:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T10:30:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 74400.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "145С",
+                        "short_title": "Назрань — Москва",
+                        "title": "Назрань — Москва",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "145S_2_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 12000.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s2000003",
+                        "popular_title": "Казанский вокзал",
+                        "short_title": "М-Казанская",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Казанский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9600215",
+                        "popular_title": null,
+                        "short_title": null,
+                        "station_type": "airport",
+                        "station_type_name": "аэропорт",
+                        "title": "Внуково",
+                        "transport_type": "plane",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T12:05:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": "1",
+                    "departure": "2025-03-09T10:30:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": "A",
+                    "duration": 5700.0,
+                    "from": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-09",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 8565,
+                            "codes": {
+                                "iata": "FV",
+                                "icao": null,
+                                "sirena": "ФВ"
+                            },
+                            "title": "Россия"
+                        },
+                        "express_type": null,
+                        "number": "FV 6004",
+                        "short_title": "Москва — Санкт-Петербург",
+                        "title": "Москва — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "plane",
+                        "uid": "FV-6004_250309_c8565_12",
+                        "vehicle": "Сухой Суперджет 100"
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c213",
+                    "popular_title": "Москва",
+                    "short_title": "Москва",
+                    "title": "Москва",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "plane"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T09:03:00+03:00",
+            "arrival_to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "departure": "2025-03-08T07:04:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-08T17:54:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T07:04:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 39000.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 63438,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "Гранд Сервис Экспресс (Таврия)"
+                        },
+                        "express_type": null,
+                        "number": "028С",
+                        "short_title": "Симферополь — Москва",
+                        "title": "Симферополь — Москва",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "028S_0_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c20210",
+                        "popular_title": "Грязи",
+                        "short_title": "Грязи",
+                        "title": "Грязи",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 3480.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s9605047",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "station",
+                        "station_type_name": "станция",
+                        "title": "Грязи-Воронежские",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c20210",
+                        "popular_title": "Грязи",
+                        "short_title": "Грязи",
+                        "title": "Грязи",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s9605047",
+                        "popular_title": "",
+                        "short_title": "",
+                        "station_type": "station",
+                        "station_type_name": "станция",
+                        "title": "Грязи-Воронежские",
+                        "transport_type": "train",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T09:03:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T18:52:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 51060.0,
+                    "from": {
+                        "code": "c20210",
+                        "popular_title": "Грязи",
+                        "short_title": "Грязи",
+                        "title": "Грязи",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 112,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ФПК"
+                        },
+                        "express_type": null,
+                        "number": "036С",
+                        "short_title": "Адлер — Санкт-Петербург",
+                        "title": "Адлер — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "036S_0_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c20210",
+                    "popular_title": "Грязи",
+                    "short_title": "Грязи",
+                    "title": "Грязи",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "train"
+            ]
+        },
+        {
+            "arrival": "2025-03-09T11:06:00+03:00",
+            "arrival_to": {
+                "code": "s9602494",
+                "popular_title": "Московский вокзал",
+                "short_title": "СПб-Моск.",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Санкт-Петербург (Московский вокзал)",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "departure": "2025-03-08T08:52:00+03:00",
+            "departure_from": {
+                "code": "s9612913",
+                "popular_title": "",
+                "short_title": "",
+                "station_type": "train_station",
+                "station_type_name": "вокзал",
+                "title": "Ростов-Главный",
+                "transport_type": "train",
+                "type": "station"
+            },
+            "details": [
+                {
+                    "arrival": "2025-03-09T06:10:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-08T08:52:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 76680.0,
+                    "from": {
+                        "code": "c39",
+                        "popular_title": "Ростов-на-Дону",
+                        "short_title": "Ростов-на-Дону",
+                        "title": "Ростов-на-Дону",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-07",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 63438,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "Гранд Сервис Экспресс (Таврия)"
+                        },
+                        "express_type": null,
+                        "number": "068С",
+                        "short_title": "Симферополь — Москва",
+                        "title": "Симферополь — Москва",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "068S_1_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    }
+                },
+                {
+                    "duration": 3000.0,
+                    "is_transfer": true,
+                    "transfer_from": {
+                        "code": "s2000003",
+                        "popular_title": "Казанский вокзал",
+                        "short_title": "М-Казанская",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Казанский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    },
+                    "transfer_point": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "transfer_to": {
+                        "code": "s2006004",
+                        "popular_title": "Ленинградский вокзал",
+                        "short_title": "М-Ленинградск",
+                        "station_type": "train_station",
+                        "station_type_name": "вокзал",
+                        "title": "Москва (Ленинградский вокзал)",
+                        "transport_type": "train",
+                        "type": "station"
+                    }
+                },
+                {
+                    "arrival": "2025-03-09T11:06:00+03:00",
+                    "arrival_platform": "",
+                    "arrival_terminal": null,
+                    "departure": "2025-03-09T07:00:00+03:00",
+                    "departure_platform": "",
+                    "departure_terminal": null,
+                    "duration": 14760.0,
+                    "from": {
+                        "code": "c213",
+                        "popular_title": "Москва",
+                        "short_title": "Москва",
+                        "title": "Москва",
+                        "type": "settlement"
+                    },
+                    "start_date": "2025-03-09",
+                    "stops": "",
+                    "thread": {
+                        "carrier": {
+                            "code": 4240,
+                            "codes": {
+                                "iata": null,
+                                "icao": null,
+                                "sirena": null
+                            },
+                            "title": "РЖД/ДОСС"
+                        },
+                        "express_type": null,
+                        "number": "758А",
+                        "short_title": "Москва — Санкт-Петербург",
+                        "title": "Москва — Санкт-Петербург",
+                        "transport_subtype": {
+                            "code": null,
+                            "color": null,
+                            "title": null
+                        },
+                        "transport_type": "train",
+                        "uid": "758A_0_2",
+                        "vehicle": null
+                    },
+                    "to": {
+                        "code": "c2",
+                        "popular_title": "Санкт-Петербург",
+                        "short_title": "Санкт-Петербург",
+                        "title": "Санкт-Петербург",
+                        "type": "settlement"
+                    }
+                }
+            ],
+            "has_transfers": true,
+            "transfers": [
+                {
+                    "code": "c213",
+                    "popular_title": "Москва",
+                    "short_title": "Москва",
+                    "title": "Москва",
+                    "type": "settlement"
+                }
+            ],
+            "transport_types": [
+                "train",
+                "train"
+            ]
+        }
+    ]
+}
