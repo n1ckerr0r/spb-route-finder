@@ -1,2 +1,0 @@
-add_executable(navigator_test navigator_test.cpp)
-target_link_libraries(navigator_test PRIVATE gtest gtest_main navigator_lib)

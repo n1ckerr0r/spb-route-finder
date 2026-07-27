@@ -1,36 +1,35 @@
-#include "cmd_parser.h"
-#include "api_key_manager.h"
-#include "data_processor.h"
-#include "data_printer.h"
+#include <QApplication>
+#include <QByteArray>
+#include <QDir>
+#include <QFile>
+#include <QFileInfo>
+#include <QIcon>
 
-using json = nlohmann::json;
-using std::cout;
-using std::cin;
-using std::format;
+#include "main_window.hpp"
 
 int main(int argc, char* argv[]) {
-    std::string api_key;
-    std::string data;
-    uint16_t from_city = 2;
-    uint16_t to_city = 39;
-    uint16_t count_routes;
+    const QString executable_path = QFileInfo(QString::fromLocal8Bit(argv[0])).isAbsolute()
+                                            ? QString::fromLocal8Bit(argv[0])
+                                            : QDir::current().absoluteFilePath(QString::fromLocal8Bit(argv[0]));
+    const QString application_directory = QFileInfo(executable_path).absolutePath();
+    QByteArray plugin_path = QFile::encodeName(application_directory);
+    const QByteArray current_plugin_path = qgetenv("QT_PLUGIN_PATH");
+    if (!current_plugin_path.isEmpty()) {
+        plugin_path.append(':');
+        plugin_path.append(current_plugin_path);
+    }
+    qputenv("QT_PLUGIN_PATH", plugin_path);
 
-    CmdParser cmd_parser(argc, argv, data);
-    ApiKeyManager api_key_manager(api_key);
-    cout << "All data is correct\n";
+    QApplication application(argc, argv);
+    QApplication::addLibraryPath(application_directory);
+    QApplication::addLibraryPath(QDir(application_directory).filePath("plugins"));
+    application.setApplicationName("SPB Route Finder");
+    application.setApplicationDisplayName("SPB Route Finder");
+    application.setOrganizationName("spb-route-finder");
+    application.setWindowIcon(QIcon::fromTheme("map"));
 
-    DataProcessor data_processor(api_key, data, from_city, to_city);
+    MainWindow main_window;
+    main_window.show();
 
-    cout << "Check internet connection...\n";
-    data_processor.checkInternetConnection();
-    cout << "Successful connection\n";
-
-    cout << "Sending a request...\n";
-    json response = data_processor.getData();
-    count_routes = data_processor.getCountRoutes();
-    cout << "Successful request\n";
-
-    DataPrinter data_printer(response, count_routes);
-    data_printer.printData();
-    data_printer.saveDataToFile();
+    return application.exec();
 }
