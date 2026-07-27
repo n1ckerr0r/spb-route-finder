@@ -22,7 +22,7 @@ std::string RouteReportFormatter::toHtml(
     html << "<div style='background:linear-gradient(135deg,#0b63f6,#19a974);"
             "border-radius:18px;padding:18px 22px;color:white;margin-bottom:16px;'>";
     html << "<div style='font-size:13px;opacity:0.9;'>Round-trip route search</div>";
-    html << "<div style='font-size:28px;font-weight:700;margin-top:4px;'>"
+    html << "<div style='font-size:28px;font-weight:700;margin-top:4px;color:#111111;'>"
          << escapeHtml(from_city_name) << " to " << escapeHtml(to_city_name) << "</div>";
     html << "<div style='margin-top:8px;font-size:14px;'>Date: "
          << escapeHtml(travel_date) << " | Routes found: " << route_count << "</div>";
