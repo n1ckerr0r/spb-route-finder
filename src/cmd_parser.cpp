@@ -109,8 +109,8 @@ void CmdParser::Help() const {
         << "  navigator 21.07.2026\n"
         << "  navigator 2026-07-21 --from 2 --to 39\n\n"
         << "Default city codes:\n"
-        << "  --from 2   (Saint Petersburg)\n"
-        << "  --to 39    (Pskov)\n";
+        << "  --from 2   (Санкт-Петербург)\n"
+        << "  --to 39    (Ростов-на-Дону)\n";
 }
 
 bool CmdParser::dataProcessing(std::string& data) {

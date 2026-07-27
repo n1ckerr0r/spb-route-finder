@@ -83,10 +83,10 @@ void MainWindow::buildUi() {
     impl().date_edit->setMinimumDate(QDate::currentDate());
     impl().date_edit->setMaximumDate(QDate::currentDate().addDays(366));
 
-    impl().from_city_edit = new QLineEdit(QStringLiteral("Saint Petersburg"), controls_group);
+    impl().from_city_edit = new QLineEdit(QStringLiteral("Санкт-Петербург"), controls_group);
     impl().from_city_edit->setPlaceholderText(QStringLiteral("Enter departure city"));
 
-    impl().to_city_edit = new QLineEdit(QStringLiteral("Rostov-on-Don"), controls_group);
+    impl().to_city_edit = new QLineEdit(QStringLiteral("Ростов-на-Дону"), controls_group);
     impl().to_city_edit->setPlaceholderText(QStringLiteral("Enter destination city"));
 
     impl().cache_checkbox = new QCheckBox(QStringLiteral("Use cache"), controls_group);

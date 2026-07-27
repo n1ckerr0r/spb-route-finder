@@ -136,6 +136,8 @@ void DataProcessor::makeUrl(
 }
 
 nlohmann::json DataProcessor::makeRequest(const std::string& url) {
+    // All Yandex Rasp search requests funnel through one method so HTTP and JSON
+    // failures are reported consistently to the UI and tests.
     const auto response =
         impl().http_getter ? impl().http_getter(url, 15000) : performGet(url, 15000);
     if (!response.errorMessage().empty()) {
@@ -180,6 +182,8 @@ DataProcessor::HttpResponse DataProcessor::performGet(
 
     const auto timeout_seconds = std::max(1L, (timeout_ms + 999L) / 1000L);
     std::ostringstream command;
+    // Production HTTP access uses curl so the project avoids introducing a
+    // dedicated networking dependency in the core library.
     command << shell_escape(NAVIGATOR_CURL_EXECUTABLE)
             << " --silent --show-error --location --max-time "
             << timeout_seconds
@@ -312,6 +316,7 @@ nlohmann::json DataProcessor::findRequest(
         }
     }
 
+    // Only hit the live API after both cache layers miss or caching is disabled.
     auto response_json = makeRequest(url);
 
     if (impl().cache_enabled) {

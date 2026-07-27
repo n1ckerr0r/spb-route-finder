@@ -16,7 +16,7 @@
 
 namespace {
 constexpr const char *kStationsListUrl =
-    "https://api.rasp.yandex-net.ru/v3.0/stations_list/?lang=ru_RU&format=json&apikey=";
+    "https://api.rasp.yandex.net/v3.0/stations_list/?lang=ru_RU&format=json&apikey=";
 
 std::string trim(const std::string &value) {
     const auto begin = value.find_first_not_of(" \t\r\n");
@@ -93,23 +93,6 @@ std::string shellEscape(const std::string &value) {
     escaped.push_back('\'');
     return escaped;
 }
-
-std::string applyEnglishCityAliases(const std::string &normalized_name) {
-    if (normalized_name == "saint petersburg" || normalized_name == "st petersburg" ||
-        normalized_name == "st. petersburg" || normalized_name == "saint-petersburg") {
-        return "санкт-петербург";
-    }
-    if (normalized_name == "rostov-on-don" || normalized_name == "rostov on don") {
-        return "ростов-на-дону";
-    }
-    if (normalized_name == "moscow") {
-        return "москва";
-    }
-    if (normalized_name == "pskov") {
-        return "псков";
-    }
-    return normalized_name;
-}
 }  // namespace
 
 struct CityCodeResolver::Impl {
@@ -127,6 +110,8 @@ CityCodeResolver::CityCodeResolver(std::string api_key)
     impl().data_loader = [this]() {
         std::filesystem::create_directories(impl().cache_path.parent_path());
 
+        // The stations directory changes rarely, so reuse the local snapshot
+        // before downloading the full catalog again from Yandex Rasp.
         if (std::filesystem::exists(impl().cache_path)) {
             std::ifstream input(impl().cache_path);
             if (input.is_open()) {
@@ -137,6 +122,8 @@ CityCodeResolver::CityCodeResolver(std::string api_key)
         }
 
         std::ostringstream command;
+        // The resolver fetches the full stations list once and indexes it in
+        // memory so later city lookups do not require extra API requests.
         command << shellEscape(NAVIGATOR_CURL_EXECUTABLE)
                 << " --silent --show-error --location --max-time 60 "
                 << shellEscape(std::string(kStationsListUrl) + impl().api_key)
@@ -200,7 +187,7 @@ std::uint16_t CityCodeResolver::resolveCityCode(const std::string &city_name) {
 }
 
 std::string CityCodeResolver::normalizeCityName(const std::string &city_name) {
-    return applyEnglishCityAliases(utf8ToLower(trim(city_name)));
+    return utf8ToLower(trim(city_name));
 }
 
 void CityCodeResolver::loadIndexIfNeeded() {

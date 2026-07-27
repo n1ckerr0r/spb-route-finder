@@ -8,8 +8,8 @@
 /// Input parameters for one round-trip route search.
 struct RouteSearchRequest {
   std::string travel_date;
-  std::string from_city_name = "Saint Petersburg";
-  std::string to_city_name = "Rostov-on-Don";
+  std::string from_city_name = "Санкт-Петербург";
+  std::string to_city_name = "Ростов-на-Дону";
   bool use_cache = true;
 
   const std::string &travelDate() const { return travel_date; }
