@@ -41,7 +41,12 @@ set(APP_HEADER_FILES
 )
 
 set(TEST_SOURCE_FILES
-        tests/navigator_test.cpp
+        tests/api_key_manager_test.cpp
+        tests/city_code_resolver_test.cpp
+        tests/cmd_parser_test.cpp
+        tests/data_printer_test.cpp
+        tests/data_processor_test.cpp
+        tests/route_search_service_test.cpp
 )
 
 FetchContent_Declare(
