@@ -2,6 +2,8 @@
 
 Desktop C++/Qt application for round-trip route search through the Yandex Rasp API. By default, the app searches trips between Санкт-Петербург and Ростов-на-Дону, allows at most one transfer, caches API responses, and renders the result inside the GUI.
 
+> **Note:** this is a pet project, built for learning and experimentation. It is not intended for production use.
+
 ## Features
 
 - simple Qt GUI with city-name input and colorful route cards
